@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import {
   ArrowRight,
@@ -31,25 +30,30 @@ export default function Hero() {
           </div>
 
           <h1 className="mt-6 text-4xl font-extrabold leading-[1.12] tracking-tight text-brand-dark sm:text-5xl lg:text-6xl">
-            Discover a New World Through{" "}
-            <span className="text-brand-red">Spanish.</span>
+            Learn Spanish Online in Kenya - Speak Confidently in{" "}
+            <span className="text-brand-red">3 Months.</span>
           </h1>
 
-          <p className="mt-6 max-w-xl text-base leading-8 text-slate-600 sm:text-lg">
-            Start your Spanish learning journey with Buenavida Spanish School.
-            Develop your language skills, connect with new cultures, and build
-            confidence one lesson at a time.
+          <p className="mt-6 max-w-2xl text-lg leading-8 text-gray-600">
+            Live classes from Nairobi for beginners, students and professionals.
+            A1-B2 courses, DELE preparation, and Spanish for jobs abroad.
           </p>
 
           {/* Learning benefits */}
           <div className="mt-6 flex flex-col gap-3 text-sm font-medium text-slate-700 sm:flex-row sm:flex-wrap sm:gap-x-5">
             <div className="flex items-center gap-2">
-              <CheckCircle2 size={18} className="shrink-0 text-brand-red" />
+              <CheckCircle2
+                size={18}
+                className="shrink-0 text-brand-red"
+              />
               Learn at your level
             </div>
 
             <div className="flex items-center gap-2">
-              <CheckCircle2 size={18} className="shrink-0 text-brand-red" />
+              <CheckCircle2
+                size={18}
+                className="shrink-0 text-brand-red"
+              />
               Build communication skills
             </div>
           </div>
@@ -58,7 +62,7 @@ export default function Hero() {
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
             <Link
               to="/admissions"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-brand-red px-6 py-4 text-sm font-bold text-white shadow-lg shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700"
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-brand-red px-6 py-4 text-sm font-bold text-white shadow-lg shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
             >
               Start Learning
               <ArrowRight size={18} />
@@ -66,7 +70,7 @@ export default function Hero() {
 
             <Link
               to="/courses"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-slate-200 bg-white px-6 py-4 text-sm font-bold text-brand-navy transition hover:border-brand-navy hover:bg-blue-50"
+              className="inline-flex items-center justify-center gap-2 rounded-lg border border-slate-200 bg-white px-6 py-4 text-sm font-bold text-brand-navy transition hover:border-brand-navy hover:bg-blue-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
             >
               <BookOpen size={18} />
               Explore Courses
@@ -85,8 +89,8 @@ export default function Hero() {
           <div className="absolute -right-3 bottom-10 h-28 w-28 rounded-full bg-blue-100 sm:-right-5 sm:h-36 sm:w-36" />
 
           <div className="relative overflow-hidden rounded-3xl bg-brand-navy p-5 shadow-2xl shadow-blue-950/20 sm:p-7">
-            {/* Decorative illustration built with real icons */}
             <div className="relative flex min-h-[340px] flex-col justify-between overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-blue-800 to-blue-950 p-6 sm:min-h-[420px] sm:p-8">
+              {/* Decorative circles */}
               <div
                 aria-hidden="true"
                 className="absolute -right-16 -top-16 h-56 w-56 rounded-full border border-white/10"
@@ -97,11 +101,13 @@ export default function Hero() {
                 className="absolute -right-6 -top-6 h-40 w-40 rounded-full border border-white/10"
               />
 
+              {/* Heading */}
               <div className="relative flex items-start justify-between gap-4">
                 <div>
                   <p className="text-xs font-bold uppercase tracking-[0.22em] text-blue-200">
                     Your next chapter
                   </p>
+
                   <h2 className="mt-3 max-w-xs text-3xl font-extrabold leading-tight text-white sm:text-4xl">
                     ¡Hola!
                     <span className="mt-1 block text-red-300">
@@ -115,6 +121,7 @@ export default function Hero() {
                 </div>
               </div>
 
+              {/* Learning illustration */}
               <div className="relative my-8 flex flex-1 items-center justify-center">
                 <div className="flex h-44 w-44 items-center justify-center rounded-full border border-white/20 bg-white/5 sm:h-56 sm:w-56">
                   <div className="flex h-32 w-32 items-center justify-center rounded-full bg-white text-brand-navy shadow-xl sm:h-40 sm:w-40">
@@ -123,8 +130,12 @@ export default function Hero() {
                 </div>
 
                 <div className="absolute bottom-2 left-0 rounded-xl border border-white/10 bg-white/10 px-4 py-3 text-white backdrop-blur-sm sm:bottom-4">
-                  <p className="text-xs text-blue-200">Every new word</p>
-                  <p className="mt-1 font-bold">Opens a new door</p>
+                  <p className="text-xs text-blue-200">
+                    Every new word
+                  </p>
+                  <p className="mt-1 font-bold">
+                    Opens a new door
+                  </p>
                 </div>
 
                 <div className="absolute right-0 top-2 flex h-12 w-12 items-center justify-center rounded-full bg-brand-red text-white shadow-lg sm:right-3">
@@ -132,9 +143,12 @@ export default function Hero() {
                 </div>
               </div>
 
+              {/* Bottom message */}
               <div className="relative flex items-center justify-between gap-3 border-t border-white/15 pt-5">
                 <div>
-                  <p className="text-xs text-blue-200">Start your journey</p>
+                  <p className="text-xs text-blue-200">
+                    Start your journey
+                  </p>
                   <p className="mt-1 text-sm font-bold text-white sm:text-base">
                     Learn. Practise. Communicate.
                   </p>
@@ -170,7 +184,10 @@ export default function Hero() {
 
 function LanguagesIcon() {
   return (
-    <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-brand-red text-white">
+    <div
+      aria-hidden="true"
+      className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-brand-red text-white"
+    >
       <Globe2 size={23} />
     </div>
   );
