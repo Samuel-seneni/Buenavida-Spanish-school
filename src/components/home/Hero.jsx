@@ -64,17 +64,19 @@ export default function Hero() {
               to="/admissions"
               className="inline-flex items-center justify-center gap-2 rounded-lg bg-brand-red px-6 py-4 text-sm font-bold text-white shadow-lg shadow-red-600/20 transition hover:-translate-y-0.5 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
             >
-              Start Learning
+               Enroll Now
               <ArrowRight size={18} />
             </Link>
 
-            <Link
-              to="/courses"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-slate-200 bg-white px-6 py-4 text-sm font-bold text-brand-navy transition hover:border-brand-navy hover:bg-blue-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
-            >
-              <BookOpen size={18} />
-              Explore Courses
-            </Link>
+            <a  href="https://wa.me/254706170473?text=Hello%20Buenavida%20Spanish%20School%2C%20I%20would%20like%20to%20learn%20Spanish."
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center justify-center rounded-lg border border-brand-navy px-6 py-3 font-bold text-brand-navy transition hover:bg-brand-light"
+          >
+            Chat on WhatsApp
+          </a>
+
+            
           </div>
 
           <p className="mt-5 text-sm text-slate-500">
